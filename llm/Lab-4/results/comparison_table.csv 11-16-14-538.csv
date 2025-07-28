@@ -1,0 +1,4 @@
+Model,Language,Model Type,Model Size,Training Data,Audio Input Success (%),Audio Output Success (%),Avg Answer Length,Answer Quality (1-5),ROUGE-1 Score,BLEU Score,Coherence (Manual 1-5),Relevance (Manual 1-5),Fluency (Manual 1-5),Voice Clarity (Manual 1-5),Pronunciation (Manual 1-5),Response Time,Noted Issues
+FLAN-T5,English,Seq2Seq (T5-based),780M parameters,Mixed multilingual tasks,100.0,100.0,34.0,5.0,0.36,0.0,5,5,5,5,5,Fast,Temperature warnings (fixed)
+MahaBERT,Marathi,BERT-based QA,110M parameters,752M tokens Marathi,100.0,100.0,107.7,5.0,0.111,0.0,3,3,3,3,2,Moderate,"QA layer not fine-tuned, Devanagari issues"
+CamemBERT,French,RoBERTa-based QA,110M parameters,138GB French text,100.0,100.0,32.7,3.3,0.059,0.0,4,4,4,4,4,Fast,"Incomplete responses, TTS connectivity issues"

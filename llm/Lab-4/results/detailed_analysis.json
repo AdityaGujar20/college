@@ -1,0 +1,64 @@
+{
+  "summary": {
+    "total_languages": 3,
+    "total_questions_processed": 9,
+    "overall_audio_success": 100.0,
+    "overall_output_success": 100.0
+  },
+  "language_analysis": {
+    "english": {
+      "performance": "Excellent",
+      "strengths": [
+        "Consistent answers",
+        "Perfect audio processing",
+        "Technical accuracy"
+      ],
+      "weaknesses": [
+        "Minor temperature warnings (resolved)"
+      ]
+    },
+    "marathi": {
+      "performance": "Moderate",
+      "strengths": [
+        "Cultural context",
+        "Devanagari script support"
+      ],
+      "weaknesses": [
+        "QA layer needs fine-tuning",
+        "Limited technical vocabulary",
+        "TTS quality"
+      ]
+    },
+    "french": {
+      "performance": "Good",
+      "strengths": [
+        "Linguistic accuracy",
+        "Good comprehension"
+      ],
+      "weaknesses": [
+        "Occasional incomplete responses",
+        "TTS connectivity issues"
+      ]
+    }
+  },
+  "metrics": {
+    "en": {
+      "audio_input_success": 100.0,
+      "audio_output_success": 100.0,
+      "avg_answer_length": 34.0,
+      "answer_quality": 5.0
+    },
+    "mr": {
+      "audio_input_success": 100.0,
+      "audio_output_success": 100.0,
+      "avg_answer_length": 107.7,
+      "answer_quality": 5.0
+    },
+    "fr": {
+      "audio_input_success": 100.0,
+      "audio_output_success": 100.0,
+      "avg_answer_length": 32.7,
+      "answer_quality": 3.3
+    }
+  }
+}

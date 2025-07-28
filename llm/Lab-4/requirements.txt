@@ -1,0 +1,13 @@
+PyPDF2==3.0.1
+pdfplumber==0.10.3
+transformers==4.35.2
+torch==2.1.1
+openai-whisper==20231117
+gtts==2.4.0
+pyttsx3==2.90
+librosa==0.10.1
+soundfile==0.12.1
+numpy<2.0.0
+nltk==3.8.1
+rouge-score==0.1.2
+sacrebleu==2.3.1
